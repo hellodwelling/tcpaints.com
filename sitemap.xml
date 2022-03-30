@@ -11,21 +11,35 @@
     </url>
 
     <url>
-        <loc>https://tcpaints.com/services</loc>
-        <lastmod>2022-03-30</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
-        <loc>https://tcpaints.com/testimonials</loc>
-        <lastmod>2022-03-30</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
         <loc>https://tcpaints.com/store</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/jobs</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/teams</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/reviews</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/gallery-All</loc>
         <lastmod>2022-03-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -40,6 +54,48 @@
 
     <url>
         <loc>https://tcpaints.com/gallery-Interior-Photos</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Exterior-Painting</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Interior-Painting</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Staining</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Power-Washing</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Kitchen-and-Cabinet-Refinishing</loc>
+        <lastmod>2022-03-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tcpaints.com/service-Drywall-and-Plastering</loc>
         <lastmod>2022-03-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
