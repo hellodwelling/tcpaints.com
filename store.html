@@ -35,11 +35,8 @@
       <script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error('Segment snippet included twice.');else{analytics.invoked=!0;analytics.methods=['trackSubmit','trackClick','trackLink','trackForm','pageview','identify','reset','group','track','ready','alias','debug','page','once','off','on','addSourceMiddleware','addIntegrationMiddleware','setAnonymousId','addDestinationMiddleware'];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement('script');t.type='text/javascript';t.async=!0;t.src='https://cdn.segment.com/analytics.js/v1/' + key + '/analytics.min.js';var n=document.getElementsByTagName('script')[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey='Z6dq7zq7CtZubdSRrh4EHjCsAasGDPiE';;analytics.SNIPPET_VERSION='4.15.3';analytics.load('Z6dq7zq7CtZubdSRrh4EHjCsAasGDPiE');analytics.page();}}();</script>      
      
     
-    
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/style.css" rel="stylesheet">
-    
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.css" rel="stylesheet">
-     <!-- <script src="/staticfiles/landing_page_gen/render.js"></script>   -->
     <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script> 
 </head>
 
@@ -82,7 +79,6 @@
     <div> Galleries
         <i class="fa fa-caret-down"></i>
     </div>
-    <!-- for desktop -->
     <div class="hidden lg:group-hover:opacity-100 lg:opacity-0 transition duration-500 ease-in-out lg:flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
         
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Photos"> Exterior Photos </a>
@@ -90,7 +86,6 @@
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Interior-Photos"> Interior Photos </a>
         
     </div> 
-    <!-- for mobile b/c can't enable tailwind variants w/o postcss build -->
     <div id='mobile-dropdown' class="lg:hidden hidden transition duration-500 ease-in-out flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
         
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Photos"> Exterior Photos </a>
@@ -240,10 +235,8 @@
     
 
 <section  style= "background-color:#4d3080"   class="py-10 bg-gray-900">
-    
         <div class="flex flex-col justify-around text-center md:flex-row">
             <p class="order-last text-sm leading-tight text-gray-400 md:order-first"> Crafted with <a  href="https://www.prophone.com/prosite" class="  text-white ">ProPhone</a>. Built with ❤️ by our team. </p>
-             
             <ul class="flex flex-row flex-wrap text-center justify-center pb-3 lg:-ml-4 lg:-mr-4 text-sm">
                 <li> <a  style= "color:#f7bf46"  href="#about" class="px-2 md:px-4 text-gray-400 hover:text-white">About Us</a> </li>
                 
@@ -264,7 +257,9 @@
                 
                 <li> <a  style= "color:#f7bf46"  href="#find-us" class=" px-2 md:px-4 text-gray-400 hover:text-white">Service Areas</a></li>
                 
-                <li> <a  style= "color:#f7bf46"  href='sitemap.xml' class=" px-2 md:px-4 text-gray-400 hover:text-white">Sitemap</a></li>
+                
+                <li> <a  style= "color:#f7bf46"  href="tcpaints.com/sitemap.xml" class=" px-2 md:px-4 text-gray-400 hover:text-white">Sitemap</a></li>
+                
             </ul>
         </div>
     </div>
@@ -272,7 +267,6 @@
 </div> 
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
-  
 
 </body>
 </html>
