@@ -35,11 +35,8 @@
       <script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error('Segment snippet included twice.');else{analytics.invoked=!0;analytics.methods=['trackSubmit','trackClick','trackLink','trackForm','pageview','identify','reset','group','track','ready','alias','debug','page','once','off','on','addSourceMiddleware','addIntegrationMiddleware','setAnonymousId','addDestinationMiddleware'];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement('script');t.type='text/javascript';t.async=!0;t.src='https://cdn.segment.com/analytics.js/v1/' + key + '/analytics.min.js';var n=document.getElementsByTagName('script')[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey='Z6dq7zq7CtZubdSRrh4EHjCsAasGDPiE';;analytics.SNIPPET_VERSION='4.15.3';analytics.load('Z6dq7zq7CtZubdSRrh4EHjCsAasGDPiE');analytics.page();}}();</script>      
      
     
-    
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/style.css" rel="stylesheet">
-    
     <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.css" rel="stylesheet">
-     <!-- <script src="/staticfiles/landing_page_gen/render.js"></script>   -->
     <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script> 
 </head>
 
@@ -82,7 +79,6 @@
     <div> Galleries
         <i class="fa fa-caret-down"></i>
     </div>
-    <!-- for desktop -->
     <div class="hidden lg:group-hover:opacity-100 lg:opacity-0 transition duration-500 ease-in-out lg:flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
         
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Photos"> Exterior Photos </a>
@@ -90,7 +86,6 @@
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Interior-Photos"> Interior Photos </a>
         
     </div> 
-    <!-- for mobile b/c can't enable tailwind variants w/o postcss build -->
     <div id='mobile-dropdown' class="lg:hidden hidden transition duration-500 ease-in-out flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
         
             <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Photos"> Exterior Photos </a>
@@ -226,47 +221,38 @@
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2  style= "color:#4d3080" class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Interior Photos</h2>
             <h2  style= "color:#f7bf46" class="my-3 mb-10 text-xl font-medium  text-gray-400  text-center">Our Best Work</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
-                <!-- <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   > -->
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg"  alt = "Photo number 1 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg"  alt = "Photo number 1 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg"  alt = "Photo number 21 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg"  alt = "Photo number 2 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg"  alt = "Photo number 2 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg"  alt = "Photo number 20 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg"  alt = "Photo number 10 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg"  alt = "Photo number 10 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg"  alt = "Photo number 19 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg"  alt = "Photo number 12 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg"  alt = "Photo number 12 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg"  alt = "Photo number 18 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg"  alt = "Photo number 18 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/S7CTA5SOFMTK83JRCK95075NMTBV5JU1MZH3MJSU.jpeg"  alt = "Photo number 18 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0HOX0MX922KGXPPHGVPXSXKLDL0QD82HOIZUQSQT.jpeg"  alt = "Photo number 12 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg"  alt = "Photo number 19 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/D6ISUFJR8TYYFMHHOMEFE7NXVLMFYLYBQQH5U4CC.jpeg"  alt = "Photo number 19 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2VHFG6YVCPWBW6JWKCMRKOC30Z1CYSSVINGKGYNO.jpeg"  alt = "Photo number 10 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg"  alt = "Photo number 20 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/JN8J58RX92YH29PJGL8M6BIBMAMENFGVGZ3UL6BS.jpeg"  alt = "Photo number 20 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/WKAIHKQR24KTQ8WS8SM9IUCSLY5RFLSWE76IXOH4.jpeg"  alt = "Photo number 2 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg"  alt = "Photo number 21 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
-                        <!-- <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/RI1NLFLWAEQCNHVMHFH0JHO5F3FOHIWTEQ7BQ6C3.jpeg"  alt = "Photo number 21 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div> -->
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/IZH3QMR7EWSV5A2LQD6QP5QWWHGA7GBLTZZ67XGQ.jpeg"  alt = "Photo number 1 of TC Paints&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     
@@ -353,10 +339,8 @@
     
 
 <section  style= "background-color:#4d3080"   class="py-10 bg-gray-900">
-    
         <div class="flex flex-col justify-around text-center md:flex-row">
             <p class="order-last text-sm leading-tight text-gray-400 md:order-first"> Crafted with <a  href="https://www.prophone.com/prosite" class="  text-white ">ProPhone</a>. Built with ❤️ by our team. </p>
-             
             <ul class="flex flex-row flex-wrap text-center justify-center pb-3 lg:-ml-4 lg:-mr-4 text-sm">
                 <li> <a  style= "color:#f7bf46"  href="#about" class="px-2 md:px-4 text-gray-400 hover:text-white">About Us</a> </li>
                 
@@ -377,7 +361,9 @@
                 
                 <li> <a  style= "color:#f7bf46"  href="#find-us" class=" px-2 md:px-4 text-gray-400 hover:text-white">Service Areas</a></li>
                 
-                <li> <a  style= "color:#f7bf46"  href='sitemap.xml' class=" px-2 md:px-4 text-gray-400 hover:text-white">Sitemap</a></li>
+                
+                <li> <a  style= "color:#f7bf46"  href="tcpaints.com/sitemap.xml" class=" px-2 md:px-4 text-gray-400 hover:text-white">Sitemap</a></li>
+                
             </ul>
         </div>
     </div>
@@ -385,7 +371,6 @@
 </div> 
 
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
-  
 
 </body>
 </html>
